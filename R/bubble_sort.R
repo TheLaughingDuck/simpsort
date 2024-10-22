@@ -10,7 +10,7 @@
 #' 
 #' @export bubble_sort
 #' 
-#' @usage bubble_sort(lst=c(4,3,5,2,1), ascending = TRUE)
+#' @usage bubble_sort(lst, ascending = TRUE)
 #' 
 #' @references https://en.wikipedia.org/wiki/Bubble_sort
 

@@ -4,7 +4,7 @@
 \alias{bubble_sort}
 \title{bubble_sort}
 \usage{
-bubble_sort(lst=c(4,3,5,2,1), ascending = TRUE)
+bubble_sort(lst, ascending = TRUE)
 }
 \arguments{
 \item{lst}{An iterable object.}
