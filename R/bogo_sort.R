@@ -14,11 +14,11 @@
 bogo_sort <- function(lst, ascending=TRUE){
   
   # ---V--- CHECK INPUT ---V---
-  # Check arg1 argument
-  #stopifnot("argument \"arg1\" is not ---" = is.---(arg1))
+  # Check lst argument
+  stopifnot("argument \'lst\' must be atomic" = is.atomic(lst))
   
-  # Check arg2 argument
-  #stopifnot("argument \"arg2\" is not ---" = is.---(arg2))
+  # Check ascending argument
+  stopifnot("argument \"ascending\" is not logical (boolean)" = (is.logical(ascending) | ascending %in% c(0,1)))
   # ---^--- CHECK INPUT ---^---
   
   srtd_lst <- lst
